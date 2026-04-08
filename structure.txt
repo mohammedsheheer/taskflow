@@ -1,0 +1,47 @@
+.
+├── backend
+│   ├── config
+│   │   └── db.js
+│   ├── controllers
+│   │   ├── authController.js
+│   │   └── taskController.js
+│   ├── middleware
+│   │   └── auth.js
+│   ├── package.json
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   └── taskRoutes.js
+│   └── server.js
+├── frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── src
+│   │   ├── api
+│   │   │   └── axios.js
+│   │   ├── App.jsx
+│   │   ├── components
+│   │   │   ├── Auth
+│   │   │   │   ├── LoginPage.jsx
+│   │   │   │   └── SignupPage.jsx
+│   │   │   ├── Layout
+│   │   │   │   ├── Header.jsx
+│   │   │   │   └── Sidebar.jsx
+│   │   │   ├── Tasks
+│   │   │   │   ├── TaskBoard.jsx
+│   │   │   │   ├── TaskCard.jsx
+│   │   │   │   └── TaskModal.jsx
+│   │   │   └── UI
+│   │   │       └── ThemeToggle.jsx
+│   │   ├── context
+│   │   │   ├── AuthContext.jsx
+│   │   │   ├── TaskContext.jsx
+│   │   │   └── ThemeContext.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── README.md
+└── structure.txt
+
+15 directories, 30 files
